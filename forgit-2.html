@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Show Your To Press Key</title>
+        <script>
+            document.addEventListener('keydown', function(event) {
+                document.getElementById('keyPressed').innerHTML = event.key;
+            });
+        </script>
+    </head>
+    <body>
+        <p>Press any key and it'll be shown be below:</p>
+        <p>Key Pressed: <span id="keyPressed"></span></p>
+    </body>
+</html>
